@@ -14,7 +14,7 @@ Log file output for a 140,000+ game PGN file included below.
 Results of 2 searches (one very standard position, one rare position) together with how White/Black fared are at the bottom.
 Also at the bottom are some function timing measurements.
 
-
+```
 [2019/06/22 01:28:57]
 Logger initialized
 checkCommandLine(argc: 3)
@@ -6016,3 +6016,4 @@ time(name: GameParser::fillCompactedPositionInfoVec - erase, numMS: 914, numCall
 time(name: GameParser::fillCompactedPositionInfoVec - build compactedPositionMap, numMS: 42, numCalls: 140785, timePerCall: 0.000298
 #FunctionTimerBoard::log
 
+```
