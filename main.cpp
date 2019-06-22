@@ -77,10 +77,6 @@ int main(int argc, char** argv) {
 		readPositionsFile(argv[2]);
 
 		const char* dbFile = settings.getItem("settings", "db_file", "");
-		const char* logFilePrefix = settings.getItem("settings", "log_dir", DEFAULT_LOG_FILE_PREFIX);
-
-		initLogger(logFilePrefix);
-
 		FileWrapper dbFileWrapper;
 		dbFileWrapper.file = fopen(dbFile, "r");
 		ASSERT(dbFileWrapper.file);
